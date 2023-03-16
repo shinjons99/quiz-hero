@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Blog</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white font-common">
+    <header class="h-16 flex items-center shadow-sm">
+        <nav class="flex justify-between items-center w-9/12 mx-auto">
+          <div class="text-zinc-800 font-bold uppercase">
+            <h1 class="text-lg">Quiz <span class="text-green-700">HERO</span></h1>
+            <p class="text-[10px] font-normal capitalize -mt-1">
+              Get ready to Quiz and be amazed!
+            </p>
+          </div>
+          <button
+            class="bg-green-600 font-bold text-sm px-5 py-1 rounded text-white" id="back"
+            onclick="history.back()">
+          <i class="fa-solid fa-arrow-left"></i> back
+          </button>
+        </nav>
+      </header>
+    <section>
+        
+        <h1 class="text-lg text-zinc-800 font-bold uppercase text-center my-8">Answer Section</h1>
+
+        <div class="container mx-auto">
+        <h3>1.Question: Difference between map, filter, find and forEach?</h3>
+        <p>Answer: map and filter are used to transform or filter an array, find is used to find a single element in an array that meets a condition, and forEach is used to execute a function on each element of an array.</p>
+        <br>
+        <h3>2.Question:Difference between localStorage, sessionStorage and cookies?</h3>
+        <p>Answer: localStorage and sessionStorage are used to store larger amounts of data on the client-side, while cookies are typically used to store smaller pieces of data that need to be sent to the server on each request. localStorage and sessionStorage have no expiration date and their data is only accessible on the same browser, while cookies have an expiration date and their data can be accessed by the server.</p>
+        <br>
+        <h3>3.Question: How Event loop works?</h3>
+        <p>Answer:The event loop is a mechanism that allows JavaScript to handle asynchronous tasks in a non-blocking way. It constantly checks for new events in the event queue, processes them, and executes callbacks and promises in the task queue.</p>
+        <br>
+        <h3>Question: Write about quizTimer function?</h3>
+        <p>Answer:quizTimer function sets a timer and updates the count on the HTML page every second until dismissed, changing the color of the text after one minute.</p>
+        <br>
+        <h3>Question: Write about chooseQuiz function?</h3>
+        <p>Answer: chooseQuiz function updates the user's given answer for a quiz and displays all answers, keeping track of the quiz IDs.</p>
+        </div>
+       
+
+    </section>
+    <script src="https://kit.fontawesome.com/9bed75c9bb.js" crossorigin="anonymous"></script>
+</body>
+</html>
